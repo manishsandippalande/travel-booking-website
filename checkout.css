@@ -1,0 +1,98 @@
+.parent {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-pg {
+    width: 75%;
+    height: 80vh;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.584);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+
+}
+.hii{
+    position: relative;
+}
+.ck1 {
+    display: flex;
+    gap: 5vh;
+}
+
+.ck1 img {
+    width: 38vh;
+    height: 20vh;
+}
+
+.lable-lg {
+    padding: 3.5vh;
+    font-size: 1.6rem;
+    color: rgb(0, 123, 2);
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title-checkout {
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ck {
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    padding-bottom: 8vh;
+}
+
+.ck2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.lable-sm {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.options {
+    font-size: 1.3rem;
+    display: flex;
+    gap: 3vh;
+}
+
+.ck3,
+.ck4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ck3 {
+    font-size: 1.4rem;
+    color: green;
+}
+.ck4 button{
+    padding: 2.4vh 3vh;
+    color: rgb(255, 0, 0);
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.425);
+    font-weight: 600;
+    border: 2px solid rgba(130, 162, 56, 0.589);
+}
+body{
+    position: relative;
+}
